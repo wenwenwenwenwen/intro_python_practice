@@ -1,5 +1,5 @@
 ## 初嘗Py
-1.1 安裝Python(Miniconda)
+1. 安裝Python(Miniconda)
     ```bash
     $sudo apt update && upgrade
     $sudo apt install curl # if have no curl
@@ -22,8 +22,8 @@
     conda create --name <env name> python=<python version>
     ```
 
-1.2 啟動Python3互動式解譯器
-    ```
+2. 啟動Python3互動式解譯器
+    ```bash
     $python3
     Python 3.9.16 (main, Mar  8 2023, 14:00:05)
     [GCC 11.2.0] :: Anaconda, Inc. on linux
@@ -32,21 +32,21 @@
     ```
 
 #### 在Python互動式解譯器中
-1.3 輸入`8 * 9`
+3. 輸入`8 * 9`
     ```python
     >>>8 * 9
     72
     >>>
     ```
 
-1.4 輸入`47`
+4. 輸入`47`
     ```python
     >>>47
     47
     >>>
     ```
 
-1.5 輸入`print(47)`
+5. 輸入`print(47)`
     ```python
     >>>print(47)
     47
