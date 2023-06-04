@@ -8,3 +8,9 @@ the todo list practice of the book `Introducing Python Modern Computing in Simpl
 ```
 $ source miniconda3/bin/activate
 ```
+
+**Git NOTE:**
+remove existing file from git version control
+reference: https://betterprogramming.pub/how-to-remove-committed-files-from-git-version-control-b6533b8f9044
+1. add file to .gitignore
+2. git rm --cached <path to file> (--cached for only remove file from repo, but keep local copy) 
