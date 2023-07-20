@@ -29,8 +29,8 @@
 
 5. 印出e2f的英文單字集合
     ```python
-    >>> e2f.keys()
-    dict_keys(['dog', 'cat', 'walrus'])
+    >>> set(e2f.keys())
+    {'dog', 'cat', 'walrus'}
     >>> 
     ```
 

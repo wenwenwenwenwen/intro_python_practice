@@ -9,7 +9,7 @@
     >>> 
     ```
 
-2. 用以下格式列印出問題與答案
+2. 用以下格式列印出問題與答案(可用for loop)
     Q:問題
     A:答案
     ```python
@@ -68,7 +68,7 @@
     >>>
     ```
 
-6. Boaty -> McBoatface; Horsey -> McHorseface; Trainy -> McTrainface，使用%格式化為duck、gourd、spitz印出名字
+6. Boaty -> McBoatface; Horsey -> McHorseface; Trainy -> McTrainface，使用%格式化為duck、gourd、spitz印出名字(可用for loop)
     ```python
     >>> "%sy: Mc%sface" %("Duck", "Duck")
     'Ducky: McDuckface'

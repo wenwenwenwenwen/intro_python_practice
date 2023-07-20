@@ -52,7 +52,7 @@
     ...         print("too low")
     ...     elif number == guess_me:
     ...         print("found it!")
-    ...         continue
+    ...         break
     ...     else:
     ...         print("oops")
     ...         break
@@ -63,6 +63,5 @@
     too low
     too low
     found it!
-    oops
     >>>
     ```

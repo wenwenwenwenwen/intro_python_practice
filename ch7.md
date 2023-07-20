@@ -1,9 +1,9 @@
 ## tuple and list
-1. 建立`years_list`，列出從出生年起5個年份
+1. 建立`years_list`，列出從出生年列到第5個生日
     ```python
-    >>> years_list = list(range(1990, 1990+5))
+    >>> years_list = list(range(1990, 1990+6))
     >>> years_list
-    [1990, 1991, 1992, 1993, 1994]
+    [1990, 1991, 1992, 1993, 1994, 1995]
     >>>
     ```
 
@@ -17,7 +17,7 @@
 3. `years_list`最後一個值
     ```python
     >>> years_list[-1]
-    1994
+    1995
     ```
 
 4. 使用"mozzarella", "cinderella", "salmonella"建立things list
@@ -42,7 +42,7 @@
     >>>
     ```
 
-7. 將salmonella刪除再印出list
+7. 將salmonella刪除再印出list(remove("salmonella"))
     ```python
     >>> things.pop()
     'salmonella'
@@ -59,14 +59,15 @@
 9. 將surprise最後一個元素改為小寫，將它反過來，再將它第一個字母改為大寫
     ```python
     >>> surprise[-1] = surprise[-1].lower()[-1::-1]
+    >>> suprise[-1] = surprise[-1].capitalize()
     >>> surprise
-    ['Groucho', 'Chico', 'oprah']
+    ['Groucho', 'Chico', 'Oprah']
     >>>
     ```
 
 10. 使用串列生成式建立even list，包含range(10)之內的偶數
     ```python
-    >>> even = [i for i in range(10) if i%2 == 0 ]
+    >>> even = [i for i in range(10) if i % 2 == 0 ]
     >>> even
     [0, 2, 4, 6, 8]
     >>>
